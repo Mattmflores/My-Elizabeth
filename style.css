@@ -1,0 +1,155 @@
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: maroon;
+    list-style: none;
+    margin: 0;
+}
+
+nav {
+    border: 5px solid pink;
+    border-left: none;
+    border-right: none;
+}
+
+li {
+    padding: 10px;
+}
+
+body {
+    background: url(./images/ozzieNewYearsKiss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section > img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    width: 290px;
+    border: 15px solid black;
+}
+
+section > h4{
+    color: white;
+    text-align: center;
+    background-color: maroon;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+    width: 320px;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Allura', cursive;
+    letter-spacing: 2px;
+    padding: 2px;
+    font-size: 1em;
+}
+
+section > h3{
+    color: white;
+    text-align: center;
+    background-color: maroon;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+    width: 320px;
+    padding: 3px;
+    font-size: 2em;
+}
+
+#mainBody {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+}
+
+.journalDiv {
+    font-family: 'Parisienne', cursive;
+    font-family: 'Allura', cursive;
+    background-color: maroon;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+    padding: 3px;
+    font-size: 1.25em;
+}
+
+#galleryID img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 40vh;
+    width: 15vw;
+    border: 10px solid black;
+    margin: 2px;
+}
+
+#galleryID > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 90vh;
+}
+
+article > div {
+    width: 42vw;
+    color: white;
+    height: 80vh;
+    font-size: 1.45rem;
+    display: flex;
+    flex-direction: column;
+}
+
+article > header {
+    font-size: 4rem;
+    color: lightcyan
+}
+
+#dedicationBody > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#poemSection {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#poemSection ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 2px;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    background-color: 	rgb(64,64,64)
+}
+
+#poemSection > nav{
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 2px;
+    width: 8vw;
+}
